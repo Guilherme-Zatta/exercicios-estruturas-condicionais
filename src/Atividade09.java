@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Atividade09 {
     public static void main(String[] args) {
         // Faça um programa que recebe a altura e o sexo (M/F) de uma pessoa e verifica se ela está dentro dos padrões de altura considerados normais para o sexo 
