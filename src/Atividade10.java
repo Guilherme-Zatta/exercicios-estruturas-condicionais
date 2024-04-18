@@ -7,11 +7,12 @@ public class Atividade10 {
 
         double salarioMinimo = 1412;
 
-        System.out.print("Informe o salário de um funcionário: ");
+        System.out.print("Informe seu salário: ");
         double salarioFuncionario = scanner.nextDouble();
 
-        if (salarioMinimo < salarioFuncionario) {
-            System.out.printf("O salário deste funcionário está acima do salário mínimo atual!" + salarioFuncionario);
+        if (salarioFuncionario > salarioMinimo) {
+            System.out.printf("Seu salário está acima do salário mínimo atual! (R$%.2f)", salarioFuncionario);
+         } else { System.out.printf("Seu salário está abaixo do salário mínimo atual! (R$%.2f)", salarioFuncionario);
         }
     
     scanner.close();
